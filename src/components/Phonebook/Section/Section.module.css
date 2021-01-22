@@ -1,0 +1,11 @@
+.section{
+    background-color: rgb(125, 129, 180);
+    width: 100%;
+    padding: 15px;
+}
+
+.title{
+    font-size: 40px;
+    margin: 0;
+}
+
