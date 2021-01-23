@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import style from './Notification.module.css'
+import style from './Notification.module.css';
+
 
 function Notification({message}) {
     return <p className={style.text}>{message}</p>
@@ -8,5 +9,6 @@ function Notification({message}) {
 Notification.propTypes ={
     message: PropTypes.string
 }
+
 
 export default Notification

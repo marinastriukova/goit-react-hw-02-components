@@ -26,9 +26,7 @@ export default class Form extends Component {
             alert('This contact is already in phonebook');
             return
         } else {
-            this.setState(prevState => {
-                return { contacts: [...prevState.contacts, ...contact] }
-            })
+            this.setState({ contacts: [...this.state.contacts, ...contact] })   
         }
 
         this.props.onAddContact(contact);
